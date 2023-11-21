@@ -1,0 +1,112 @@
+/* Light Mode Styles (existing styles) */
+.container * {
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.expense {
+	color: red;
+}
+.revenue {
+	color: green;
+}
+h1 {
+	text-align: center;
+}
+
+.header {
+	text-align: center;
+	display: flex;
+	gap: 10px;
+	justify-content: center;
+}
+.items-container {
+	max-width: 70%;
+	margin: auto;
+}
+button {
+	background: white;
+	color: black;
+	border: none;
+	border-radius: 2rem;
+	padding: 0.5rem 1rem;
+}
+button:hover {
+	background: grey;
+	color: white;
+}
+.add-cta {
+	background: skyblue;
+	color: white;
+}
+
+input {
+	padding: 0.5rem 1rem;
+	border-radius: 2rem;
+	border: solid 1px black;
+}
+select {
+	padding: 0.5rem 1rem;
+	border-radius: 2rem;
+	border: solid 1px black;
+	background: white;
+}
+.toggle {
+	margin-left: 5%;
+}
+.toggle button {
+	border: 1px solid black;
+}
+.active {
+	color: rgb(255, 255, 255);
+	background-color: rgb(0, 0, 0);
+}
+
+table {
+	width: 100%;
+	border-collapse: collapse;
+	margin-top: 20px;
+}
+
+th,
+td {
+	border: 1px solid #ddd;
+	padding: 8px;
+	text-align: left;
+}
+
+th {
+	background-color: #f2f2f2;
+}
+
+body.dark-mode tr:nth-child(even) td {
+	background-color: #f9f9f9;
+	color: black !important;
+}
+
+body.dark-mode tr:nth-child(odd) td {
+	background-color: black;
+	color: white !important;
+}
+
+tr:hover {
+	background-color: #f5f5f5;
+}
+
+/* Dark Mode Styles */
+body.dark-mode {
+	background-color: #1a1a1a;
+	color: #fff;
+}
+.dark-mode .expense {
+	color: #ffffff;
+}
+.dark-mode .revenue {
+	color: #136113; /* Adjust color for dark mode */
+}
+.dark-mode td {
+	color: rgb(168, 146, 146);
+}
+/* Add any additional dark mode styles here */
+.net-box {
+	display: flex;
+	justify-content: space-between;
+}
